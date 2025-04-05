@@ -113,10 +113,13 @@ axis4.set_title("Mass 2", fontweight = 'bold', fontsize = 25)
 axis4.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
 axis4.set_ylabel("Velocity [m/s]", fontweight = "bold", fontsize = 20)
 axis4.grid(True, which="both", ls="-")
+plt.show()
 
-#plt.savefig("ME_348_HW_10.png", bbox_inches='tight')
+#plt.savefig("ME_348_HW_10_nd.png", bbox_inches='tight')
+
 
 ################################################################################################################################
+
 
 fig2 = plt.figure(2, figsize = (28,20))
 gs = gridspec.GridSpec(2,2, height_ratios = [1,1], hspace = 0.2, wspace = 0.2)
@@ -171,5 +174,6 @@ axis4.set_title("Mass 2", fontweight = 'bold', fontsize = 25)
 axis4.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
 axis4.set_ylabel("Velocity [m/s]", fontweight = "bold", fontsize = 20)
 axis4.grid(True, which="both", ls="-")
+plt.show()
 
-#plt.savefig("ME_348_HW_10.png", bbox_inches='tight')
+#plt.savefig("ME_348_HW_10_d.png", bbox_inches='tight')
