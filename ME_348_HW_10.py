@@ -72,8 +72,8 @@ axis1.yaxis.get_offset_text().set_fontsize(18)
 axis1.plot(time_nd, m1_x_nd, color = "blue", linewidth = 3)
 
 axis1.set_title("Mass 1", fontweight = 'bold', fontsize = 25)
-axis1.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
-axis1.set_ylabel("Displacement [m]", fontweight = "bold", fontsize = 20)
+axis1.set_xlabel("Time", fontweight = "bold", fontsize = 20)
+axis1.set_ylabel("Displacement", fontweight = "bold", fontsize = 20)
 axis1.grid(True, which="both", ls="-")
 
 #------------------------------------------------------------------------------------------------------------------------------#
@@ -85,8 +85,8 @@ axis2.yaxis.get_offset_text().set_fontsize(18)
 axis2.plot(time_nd, m1_v_nd, color = "red", linewidth = 3)
 
 axis2.set_title("Mass 1", fontweight = 'bold', fontsize = 25)
-axis2.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
-axis2.set_ylabel("Velocity [m/s]", fontweight = "bold", fontsize = 20)
+axis2.set_xlabel("Time", fontweight = "bold", fontsize = 20)
+axis2.set_ylabel("Velocity", fontweight = "bold", fontsize = 20)
 axis2.grid(True, which="both", ls="-")
 
 #------------------------------------------------------------------------------------------------------------------------------#
@@ -98,8 +98,8 @@ axis3.tick_params(labelsize=22)
 axis3.plot(time_nd, m2_x_nd, color = "blue", linewidth = 3)
 
 axis3.set_title("Mass 2", fontweight = 'bold', fontsize = 25)
-axis3.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
-axis3.set_ylabel("Displacement [m]", fontweight = "bold", fontsize = 20)
+axis3.set_xlabel("Time", fontweight = "bold", fontsize = 20)
+axis3.set_ylabel("Displacement", fontweight = "bold", fontsize = 20)
 axis3.grid(True, which="both", ls="-")
 
 #------------------------------------------------------------------------------------------------------------------------------#
@@ -110,8 +110,8 @@ axis4.tick_params(labelsize=22)
 axis4.plot(time_nd, m2_v_nd, color = "red", linewidth = 3)
 
 axis4.set_title("Mass 2", fontweight = 'bold', fontsize = 25)
-axis4.set_xlabel("Time [s]", fontweight = "bold", fontsize = 20)
-axis4.set_ylabel("Velocity [m/s]", fontweight = "bold", fontsize = 20)
+axis4.set_xlabel("Time", fontweight = "bold", fontsize = 20)
+axis4.set_ylabel("Velocity", fontweight = "bold", fontsize = 20)
 axis4.grid(True, which="both", ls="-")
 plt.show()
 
