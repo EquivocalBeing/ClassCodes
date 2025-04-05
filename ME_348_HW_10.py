@@ -31,7 +31,6 @@ V = 0.1 # m/s
 
 k_tld = b_tld**2
 m2 = m1 * m1_m2
-k2 = m2 * b_tld**2
 k = m2 * b_omega**2
 T = b_tld / b_omega
 L = (V * k_tld * T) / (a_tld * b_tld)
@@ -51,7 +50,7 @@ m2_v_d = v_tld * m2_v_nd
 print("-----------------")
 print(f"v_tld: {v_tld:.4f} nd")
 print("m2:    " + str(m2) + " kg")
-print("k:     " + str(k2) + " N/m")
+print("k:     " + str(k) + " N/m")
 print("-----------------")
 print("T:     " + str(T))
 print(f"L:     {L:.4f}")
